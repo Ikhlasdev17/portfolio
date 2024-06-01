@@ -20,7 +20,7 @@ const ExperienceDetails = ({
 	summary,
 	company,
 }: ExperienceDetailsProps) => {
-	const { i18n } = useTranslation()
+	const { i18n, t } = useTranslation()
 	return (
 		<Card className='mx-auto flex w-full max-w-4xl flex-col justify-between gap-4 p-8 md:flex-row md:gap-8'>
 			<div className='max-md:order-1 md:w-1/4'>
@@ -63,7 +63,7 @@ const ExperienceDetails = ({
 					)}{' '}
 					-{' '}
 					{currentlyWorkHere
-						? 'Present'
+						? t('present')
 						: endDate
 						? new Intl.DateTimeFormat('en-US', dateFormatOptions).format(
 								endDate

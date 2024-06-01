@@ -103,11 +103,11 @@ const Header = () => {
 						</div>
 						<div className='flex flex-col gap-4 p-4'>
 							<div className='flex items-center justify-between'>
-								<Typography>Switch Theme</Typography>
+								<Typography>{t('switch_theme')}</Typography>
 								<ThemeSwitcher />
 							</div>
 							<div className='flex items-center justify-between'>
-								<Typography>Change language</Typography>
+								<Typography>{t('change_lang')}</Typography>
 								<LangSwitcher />
 							</div>
 							<DownloadCV />
