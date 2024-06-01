@@ -57,7 +57,7 @@ export default async function RootLayout({
 	const { t, resources } = await initTranslations(locale, i18nNamespaces)
 
 	return (
-		<html lang='en' className='!scroll-smooth' suppressHydrationWarning>
+		<html lang='en' className='!scroll-smooth dark' suppressHydrationWarning>
 			<body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
 				<main className='flex min-h-screen w-full flex-col'>
 					<Providers>

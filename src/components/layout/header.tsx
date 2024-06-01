@@ -95,7 +95,7 @@ const Header = () => {
 												}, 500)
 											}}
 										>
-											{link.label}
+											{t(link.label)}
 										</Link>
 									</li>
 								))}
