@@ -1,8 +1,8 @@
 import ImageWrapper from '@/components/data-display/image-wrapper'
 import Typography from '@/components/general/typography'
 import Card from '@/components/layout/card'
-import { ExperienceDetails as ExperienceDetailsProps } from '@/lib/types'
 import { useTranslation } from 'react-i18next'
+import { ExperienceDetails as ExperienceDetailsProps } from '../../lib/types'
 
 const dateFormatOptions: Intl.DateTimeFormatOptions = {
 	year: 'numeric',
@@ -18,6 +18,7 @@ const ExperienceDetails = ({
 	startDate,
 	endDate,
 	summary,
+	company,
 }: ExperienceDetailsProps) => {
 	const { i18n } = useTranslation()
 	return (
@@ -31,12 +32,23 @@ const ExperienceDetails = ({
 				/>
 			</div>
 			<div className='flex flex-col gap-4 max-md:order-3 md:w-2/4'>
-				<Typography variant='subtitle' className='font-semibold text-gray-900'>
-					{position}
-				</Typography>
+				<div>
+					<Typography
+						variant='body3'
+						className='font-semibold text-gray-900 opacity-50 mb-2'
+					>
+						{company}
+					</Typography>
+					<Typography
+						variant='subtitle'
+						className='font-semibold text-gray-900'
+					>
+						{position}
+					</Typography>
+				</div>
 				<ul className='flex list-disc flex-col gap-2 md:gap-1'>
 					{summary[i18n.language === 'en' ? 'en' : 'ru']?.map(
-						(sentence, index) => (
+						(sentence: string, index: number) => (
 							<Typography component='li' key={index}>
 								{sentence}
 							</Typography>

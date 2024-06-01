@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next'
 const ExperienceSection = () => {
 	const { t } = useTranslation()
 	return (
-		<Container className='bg-gray-50'>
+		<Container className='bg-gray-50' id='experience'>
 			<div className='flex flex-col items-center gap-4'>
 				<div className='self-center'>
 					<Tag label={t('experience')} />

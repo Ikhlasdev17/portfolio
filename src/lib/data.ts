@@ -25,7 +25,7 @@ import LogoEncode from '/public/images/work/encode_black.png'
 import LogoEncodeDark from '/public/images/work/encode_light.png'
 import LogoGreenApex from '/public/images/work/natiyje.svg'
 import LogoGreenApexLight from '/public/images/work/natiyje_light.svg'
-import LogoDotnpixelLight from '/public/images/work/texnopos.jpeg'
+import LogoDotnpixelLight from '/public/images/work/texnopos.png'
 
 import Muvvo from '/public/images/projects/tg_image_2932807041.jpeg'
 
@@ -55,6 +55,11 @@ import Natiyje5 from '/public/images/projects/natiyje/natiyje5.jpeg'
 import Natiyje6 from '/public/images/projects/natiyje/natiyje6.jpeg'
 import Natiyje7 from '/public/images/projects/natiyje/natiyje7.jpeg'
 
+import Lms1 from '/public/images/crm/lms1.jpeg'
+import Lms2 from '/public/images/crm/lms2.jpeg'
+import Lms3 from '/public/images/crm/lms3.jpeg'
+import Lms4 from '/public/images/crm/lms4.jpeg'
+
 export const EXTERNAL_LINKS = {
 	GITHUB: 'https://github.com/Ikhlasdev17',
 	LINKEDIN: 'https://www.linkedin.com/in/ыклас-аралбаев-68256622b',
@@ -68,12 +73,12 @@ export const NAV_LINKS = [
 		href: '#about',
 	},
 	{
-		label: 'work',
-		href: '#work',
-	},
-	{
 		label: 'experience',
 		href: '#experience',
+	},
+	{
+		label: 'work',
+		href: '#work',
 	},
 	{
 		label: 'contact',
@@ -190,6 +195,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
 		position: 'Full Stack developer',
 		startDate: new Date(2024, 0),
 		currentlyWorkHere: true,
+		company: 'OOO "ENCODE"',
 		summary: {
 			en: [
 				`A company that deals with business automation.
@@ -217,6 +223,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
 		position: 'Full Stack developer',
 		startDate: new Date(2023, 7),
 		endDate: new Date(2024, 0),
+		company: 'OOO "Nátiyje"',
 		summary: {
 			en: [
 				'Startup project - for online and hybrid education.',
@@ -238,6 +245,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
 		position: 'Frontend mentor',
 		startDate: new Date(2023, 8),
 		endDate: new Date(2024, 0),
+		company: 'OOO "TexnoPOS IT Academy"',
 		summary: {
 			en: [
 				'Engaged as a Frontend Mentor, providing guidance and expertise in web development to support the professional growth of individuals in the field.',
@@ -258,7 +266,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
 		logoAlt: 'TEXNOPOS logo',
 		position: 'Frontend developer',
 		startDate: new Date(2022, 1),
-		endDate: new Date(2013, 10),
+		endDate: new Date(2023, 10),
+		company: 'OOO "TexnoPOS SOFT"',
 		summary: {
 			en: [
 				'CRM systems were developed and automatic SMS sending was carried out. Primary technologies: JavaScript, React, Php, Laravel, Kotlin.',
@@ -292,8 +301,9 @@ export const PROJECTS: any[] = [
 			'Typescript',
 			'Material UI',
 			'Socket.io',
-			'Styled Components',
 			'Redux Toolkit',
+			'Styled Components',
+			'Storybook',
 			'Python',
 			'Django',
 			'Meta integration',
@@ -374,6 +384,26 @@ export const PROJECTS: any[] = [
 			'Payment Integration (click.uz)',
 		],
 		github: 'https://github.com/Ikhlasdev17/natiyje-client.git',
+	},
+	{
+		name: 'LMS System',
+		description: {
+			en: 'LMS system for full automation of training centers. Including customers, staff, courses, center branches and other management.',
+			ru: `Система LMS для полной автоматизации учебных центров. Включая клиентов, сотрудников, курсы, филиалы центра и другое руководство.`,
+		},
+		url: '#',
+		role: 'Frontend developer',
+		previewImage: Lms1,
+		images: [Lms1, Lms2, Lms3, Lms4],
+		technologies: [
+			'React',
+			'Typescript',
+			'Ant Design',
+			'Tailwind',
+			'Storybook',
+			'PHP',
+			'Laravel',
+		],
 	},
 ]
 

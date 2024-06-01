@@ -21,6 +21,7 @@ export type ExperienceDetails = {
 	startDate: Date
 	endDate?: Date
 	summary: SummaryData
+	company: string
 }
 
 type description = {
