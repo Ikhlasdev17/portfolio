@@ -38,6 +38,10 @@ export type ProjectDetails = {
 	role?: string
 	github?: string
 	images?: string[]
+	urls?: {
+		frontend: string
+		backend: string
+	}
 }
 
 export type TestimonialDetails = {

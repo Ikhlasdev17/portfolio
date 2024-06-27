@@ -22,6 +22,7 @@ const ProjectDetails = ({
 	description,
 	technologies,
 	url,
+	urls,
 	previewImage,
 	layoutType = 'default',
 	role,
@@ -88,21 +89,47 @@ const ProjectDetails = ({
 						<Tag key={index} label={technology} />
 					))}
 				</div>
-				{github ? (
-					<Link
-						href={github}
-						noCustomization
-						className='self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500 flex gap-2'
-						externalLink
-					>
-						Source
-						<ExternalLink />
-					</Link>
-				) : (
-					<Typography className='opacity-50 flex items-center gap-2'>
-						<Github /> Private repository
-					</Typography>
-				)}
+				<div className='flex items-center gap-4'>
+					{github ? (
+						<Link
+							href={github}
+							noCustomization
+							className='self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500 flex gap-2'
+							externalLink
+						>
+							Source
+							<ExternalLink />
+						</Link>
+					) : null}
+					{urls ? (
+						<>
+							<Link
+								href={urls.frontend}
+								noCustomization
+								className='self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500 flex gap-2'
+								externalLink
+							>
+								Frontend
+								<ExternalLink />
+							</Link>
+							<Link
+								href={urls.backend}
+								noCustomization
+								className='self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500 flex gap-2'
+								externalLink
+							>
+								Backend
+								<ExternalLink />
+							</Link>
+						</>
+					) : null}
+
+					{!github && !urls ? (
+						<div className='flex items-center opacity-55 gap-2'>
+							<Github /> Private repository.
+						</div>
+					) : null}
+				</div>
 			</div>
 		</Card>
 	)

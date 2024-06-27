@@ -55,6 +55,13 @@ import Natiyje5 from '/public/images/projects/natiyje/natiyje5.jpeg'
 import Natiyje6 from '/public/images/projects/natiyje/natiyje6.jpeg'
 import Natiyje7 from '/public/images/projects/natiyje/natiyje7.jpeg'
 
+import Chat1 from '/public/images/chat/chat1.jpeg'
+import Chat2 from '/public/images/chat/chat2.jpeg'
+import Chat3 from '/public/images/chat/chat3.jpeg'
+import Chat4 from '/public/images/chat/chat4.jpeg'
+import Chat5 from '/public/images/chat/chat5.jpeg'
+import Chat6 from '/public/images/chat/chat6.jpeg'
+
 import Lms1 from '/public/images/crm/lms1.jpeg'
 import Lms2 from '/public/images/crm/lms2.jpeg'
 import Lms3 from '/public/images/crm/lms3.jpeg'
@@ -403,6 +410,32 @@ export const PROJECTS: any[] = [
 			'Storybook',
 			'PHP',
 			'Laravel',
+		],
+	},
+	{
+		name: 'RoomS - Chat application',
+		description: {
+			en: 'Real time chat application, rooms and users. Multiple database projects, including MongoDB and Postgresql.',
+			ru: `Приложение чата в реальном времени, комнаты и пользователи. Несколько проектов баз данных, включая MongoDB и Postgresql.`,
+		},
+		url: '#',
+		urls: {
+			frontend: 'https://github.com/ikhlasaralbaev/chat-app-client.git',
+			backend: 'https://github.com/ikhlasaralbaev/chat-app-2.git',
+		},
+		role: 'Full-stack developer',
+		previewImage: Chat1,
+		images: [Chat1, Chat2, Chat3, Chat4, Chat5, Chat6],
+		technologies: [
+			'React',
+			'Typescript',
+			'Chakra UI',
+			'PHP',
+			'Laravel',
+			'Pusher',
+			'MongoDB',
+			'Postgres',
+			'Docker',
 		],
 	},
 ]
