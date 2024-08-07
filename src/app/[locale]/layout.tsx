@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 import Header from '@/components/layout/header'
@@ -14,36 +15,39 @@ const description =
 	'Full Stack developer (React.js | Node.js) from Uzbekistan, Nukus.'
 const url = 'https://aralbaev.uz'
 
-// export const metadata: Metadata = {
-// 	metadataBase: new URL(url),
-// 	title,
-// 	description,
-// 	keywords: [
-// 		'Frontend Developer',
-// 		'Full Stack Developer',
-// 		'React Developer',
-// 		'Next.js Developer',
-// 	],
-// 	creator: 'Ikhlas Aralbaev',
-// 	themeColor: [
-// 		{ media: '(prefers-color-scheme: light)', color: 'white' },
-// 		{ media: '(prefers-color-scheme: dark)', color: 'black' },
-// 	],
-// 	openGraph: {
-// 		type: 'website',
-// 		url,
-// 		title,
-// 		description,
-// 		siteName: title,
-// 	},
-// 	icons: {
-// 		icon: 'https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg',
-// 		shortcut:
-// 			'https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg',
-// 		apple:
-// 			'https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg',
-// 	},
-// }
+export const metadata: Metadata = {
+	metadataBase: new URL(url),
+	title,
+	description,
+	keywords: [
+		'Frontend Developer',
+		'Full Stack Developer',
+		'React Developer',
+		'Next.js Developer',
+	],
+	creator: 'Ikhlas Aralbaev',
+	themeColor: [
+		{ media: '(prefers-color-scheme: light)', color: 'white' },
+		{ media: '(prefers-color-scheme: dark)', color: 'black' },
+	],
+	openGraph: {
+		type: 'website',
+		url,
+		title,
+		description,
+		siteName: title,
+		images: [
+			'https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg',
+		],
+	},
+	icons: {
+		icon: 'https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg',
+		shortcut:
+			'https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg',
+		apple:
+			'https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg',
+	},
+}
 
 const i18nNamespaces = ['home', 'common']
 
