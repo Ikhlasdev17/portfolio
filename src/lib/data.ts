@@ -98,7 +98,7 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
 	{
 		icon: Linkedin,
-		url: 'www.linkedin.com/in/ыклас-аралбаев-68256622b',
+		url: 'https://www.linkedin.com/in/aralbaev',
 	},
 	{
 		icon: Youtube,
