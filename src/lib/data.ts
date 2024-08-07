@@ -67,6 +67,8 @@ import Lms2 from '/public/images/crm/lms2.jpeg'
 import Lms3 from '/public/images/crm/lms3.jpeg'
 import Lms4 from '/public/images/crm/lms4.jpeg'
 
+import MusaitLogo from '/public/images/work/musait.svg'
+
 export const EXTERNAL_LINKS = {
 	GITHUB: 'https://github.com/Ikhlasdev17',
 	LINKEDIN: 'https://www.linkedin.com/in/ыклас-аралбаев-68256622b',
@@ -196,12 +198,41 @@ export const TECHNOLOGIES = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
 	{
+		logo: MusaitLogo,
+		darkModeLogo: MusaitLogo,
+		logoAlt: 'Musait logo',
+		position: 'Full Stack developer',
+		startDate: new Date(2024, 6),
+		currentlyWorkHere: true,
+		company: 'OOO "MUSAIT Technologies"',
+		summary: {
+			en: [
+				`Разработал системы планирования ресурсов предприятия (ERP) для оптимизации бизнес-процессов для таких крупных компаний, как Thewolf и Aberno.
+`,
+				`Разработал системы управления взаимоотношениями с клиентами (CRM) для улучшения взаимодействия с клиентами и автоматизации бизнес-операций для таких компаний, как Megastroy и Rozmetov.`,
+				` Разработал системы управления человеческими ресурсами (HRM) для улучшения управления сотрудниками для различных предприятий, включая Medicalka.`,
+				`Технологии: React, Next.js, Tailwind CSS, Storybook, Nest.js, Laravel, PostgreSQL.`,
+				`Развертывание: CI/CD, Docker`,
+			],
+			ru: [
+				`Компания которая занимается автоматизаций бизнеса.
+				Разработал ERP и CRM.
+				`,
+				`Технологии, которые я использовал в компании: React, Next, Material UI,
+				Styled Components, Tailwind, Jest, Storybook, Websocket, Telegraf, Express`,
+				`Интеграции с ИП Телефонии (online pbx), Meta, Telegram.`,
+				`CI/CD (GH-actions) | Docker`,
+			],
+		},
+	},
+	{
 		logo: LogoEncode,
 		darkModeLogo: LogoEncodeDark,
 		logoAlt: 'Encode logo',
 		position: 'Full Stack developer',
 		startDate: new Date(2024, 0),
-		currentlyWorkHere: true,
+		currentlyWorkHere: false,
+		endDate: new Date(2024, 6),
 		company: 'OOO "ENCODE"',
 		summary: {
 			en: [
