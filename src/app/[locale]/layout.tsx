@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import Header from '@/components/layout/header'
 import { Providers } from '@/providers'
 import TranslationsProvider from '@/providers/translations-provider'
-import { Head } from 'next/document'
+import Head from 'next/head'
 import initTranslations from '../i18n'
 import './globals.css'
 
