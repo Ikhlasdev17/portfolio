@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 const title = 'Ikhlas Aralbaev | Full Stack developer from Uzbekistan.'
 const description =
 	'Full Stack developer (React.js | Node.js) from Uzbekistan, Nukus.'
-const url = 'https://ikhlasaralbaev.uz'
+const url = 'https://aralbaev.uz'
 
 export const metadata: Metadata = {
 	metadataBase: new URL(url),
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
 		siteName: title,
 	},
 	icons: {
-		icon: '/favicon.ico',
-		shortcut: '/favicon-16x16.png',
-		apple: '/apple-touch-icon.png',
+		icon: '/public/images/home-image.jpg',
+		shortcut: '/public/images/home-image.jpg',
+		apple: '/public/images/home-image.jpg',
 	},
 }
 
