@@ -207,21 +207,20 @@ export const EXPERIENCES: ExperienceDetails[] = [
 		company: 'OOO "MUSAIT Technologies"',
 		summary: {
 			en: [
+				`Developed enterprise resource planning (ERP) systems to streamline business processes for large companies like Thewolf and Aberno. 
+				`,
+				`Created customer relationship management (CRM) systems to enhance client interactions and automate business operations for companies such as Megastroy and Rozmetov.`,
+				` Developed human resource management (HRM) systems to improve employee management for various enterprises including Medicalka.`,
+				`Technologies: React, Next.js, Tailwind CSS, Storybook, Nest.js, Laravel, PostgreSQL.`,
+				`Deployment: CI/CD, Docker`,
+			],
+			ru: [
 				`Разработал системы планирования ресурсов предприятия (ERP) для оптимизации бизнес-процессов для таких крупных компаний, как Thewolf и Aberno.
 `,
 				`Разработал системы управления взаимоотношениями с клиентами (CRM) для улучшения взаимодействия с клиентами и автоматизации бизнес-операций для таких компаний, как Megastroy и Rozmetov.`,
 				` Разработал системы управления человеческими ресурсами (HRM) для улучшения управления сотрудниками для различных предприятий, включая Medicalka.`,
 				`Технологии: React, Next.js, Tailwind CSS, Storybook, Nest.js, Laravel, PostgreSQL.`,
 				`Развертывание: CI/CD, Docker`,
-			],
-			ru: [
-				`Компания которая занимается автоматизаций бизнеса.
-				Разработал ERP и CRM.
-				`,
-				`Технологии, которые я использовал в компании: React, Next, Material UI,
-				Styled Components, Tailwind, Jest, Storybook, Websocket, Telegraf, Express`,
-				`Интеграции с ИП Телефонии (online pbx), Meta, Telegram.`,
-				`CI/CD (GH-actions) | Docker`,
 			],
 		},
 	},
