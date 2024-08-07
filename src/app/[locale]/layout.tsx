@@ -38,9 +38,11 @@ export const metadata: Metadata = {
 		siteName: title,
 	},
 	icons: {
-		icon: '/public/images/home-image.jpg',
-		shortcut: '/public/images/home-image.jpg',
-		apple: '/public/images/home-image.jpg',
+		icon: 'https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg',
+		shortcut:
+			'https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg',
+		apple:
+			'https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg',
 	},
 }
 
@@ -65,15 +67,24 @@ export default async function RootLayout({
 				{/* Open Graph Tags */}
 				<meta property='og:title' content='Ikhlas Aralbaev | Web developer.' />
 				<meta property='og:description' content="Ikhlas's personal website." />
-				<meta property='og:image' content='/public/images/home-image.jpg' />
+				<meta
+					property='og:image'
+					content='https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg'
+				/>
 				<meta property='og:url' content='https://aralbaev.uz' />
 				<meta property='og:type' content='website' />
 
 				{/* Twitter Card Tags */}
-				<meta name='twitter:card' content='/public/images/home-image.jpg' />
+				<meta
+					name='twitter:card'
+					content='https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg'
+				/>
 				<meta name='twitter:title' content='Ikhlas Aralbaev | Web developer.' />
 				<meta name='twitter:description' content="Ikhlas's personal website." />
-				<meta name='twitter:image' content='/public/images/home-image.jpg' />
+				<meta
+					name='twitter:image'
+					content='https://recruiting.thewolfsa.com/uploads/default/6937c451-ea15-439d-9629-8b2fa7e8d0ab-2024-04-11-22.37.00.jpg'
+				/>
 			</Head>
 
 			<body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
