@@ -1,5 +1,7 @@
 import { Linkedin, Youtube } from 'lucide-react'
 import { BsTelegram } from 'react-icons/bs'
+import { LogoGreenApex } from '/public/images/work/natiyje.svg'
+import { LogoGreenApexLight } from '/public/images/work/natiyje_light.svg'
 
 import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg'
 import LogoCypress from '/public/images/logos/icon-cypress.svg'
@@ -23,8 +25,6 @@ import LogoTypescript from '/public/images/logos/icon-typescript.svg'
 
 import LogoEncode from '/public/images/work/encode_black.png'
 import LogoEncodeDark from '/public/images/work/encode_light.png'
-import LogoGreenApex from '/public/images/work/natiyje.svg'
-import LogoGreenApexLight from '/public/images/work/natiyje_light.svg'
 import LogoDotnpixelLight from '/public/images/work/texnopos.png'
 
 import Muvvo from '/public/images/projects/tg_image_2932807041.jpeg'
@@ -253,29 +253,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
 			],
 		},
 	},
-	{
-		logo: LogoGreenApex,
-		darkModeLogo: LogoGreenApexLight,
-		logoAlt: 'Natiyje logo',
-		position: 'Full Stack developer',
-		startDate: new Date(2023, 7),
-		endDate: new Date(2024, 0),
-		company: 'OOO "Nátiyje"',
-		summary: {
-			en: [
-				'Startup project - for online and hybrid education.',
-				'Developed the backend part on: NestJS, database - MongoDB',
-				'And the frontend part developed on: NextJS, Storybook, ChakraUI, Jest.',
-				'Integration with various services such as: Eskiz.uz, Click.uz, Payme.uz, and video hosting.',
-			],
-			ru: [
-				'Стартап проект - для онлайн и гибридный образовании.',
-				'Разработал бэкенд часть на NestJS, БД - MongoDB',
-				'And the frontend part developed on: NextJS, Storybook, ChakraUI, Jest.',
-				'Интеграция с различными сервисами такие как: Eskiz.uz, Click.uz, Payme.uz, и видеохостинг Spotlightr.com',
-			],
-		},
-	},
+
 	{
 		logo: LogoDotnpixelLight,
 		logoAlt: 'TEXNOPOS logo',
@@ -493,3 +471,27 @@ export const TESTIMONIALS = [
 			'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
 	},
 ]
+
+const removedExp = {
+	logo: LogoGreenApex,
+	darkModeLogo: LogoGreenApexLight,
+	logoAlt: 'Natiyje logo',
+	position: 'Full Stack developer',
+	startDate: new Date(2023, 7),
+	endDate: new Date(2024, 0),
+	company: 'OOO "Nátiyje"',
+	summary: {
+		en: [
+			'Startup project - for online and hybrid education.',
+			'Developed the backend part on: NestJS, database - MongoDB',
+			'And the frontend part developed on: NextJS, Storybook, ChakraUI, Jest.',
+			'Integration with various services such as: Eskiz.uz, Click.uz, Payme.uz, and video hosting.',
+		],
+		ru: [
+			'Стартап проект - для онлайн и гибридный образовании.',
+			'Разработал бэкенд часть на NestJS, БД - MongoDB',
+			'And the frontend part developed on: NextJS, Storybook, ChakraUI, Jest.',
+			'Интеграция с различными сервисами такие как: Eskiz.uz, Click.uz, Payme.uz, и видеохостинг Spotlightr.com',
+		],
+	},
+}
