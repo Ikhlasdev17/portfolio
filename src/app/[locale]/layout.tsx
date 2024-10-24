@@ -10,9 +10,9 @@ import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const title = 'Ikhlas Aralbaev | Full Stack developer from Uzbekistan.'
+const title = 'Ikhlas Aralbaev'
 const description =
-	'Full Stack developer (React.js | Node.js) from Uzbekistan, Nukus.'
+	'Software engineer from Uzbekistan'
 const url = 'https://aralbaev.uz'
 
 export const metadata: Metadata = {
