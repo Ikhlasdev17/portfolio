@@ -70,447 +70,449 @@ import MusaitLogo from '/public/images/work/musait.svg'
 import AsiaAlliance from '/public/images/work/asia.jpeg'
 
 export const EXTERNAL_LINKS = {
-	GITHUB: 'https://github.com/Ikhlasdev17',
-	LINKEDIN: 'https://www.linkedin.com/in/ыклас-аралбаев-68256622b',
-	TELEGRAM: 'https://t.me/ikhlasaralbaev',
-	YOUTUBE: 'https://www.youtube.com/channel/UCk3Ij43kR-hLcH50F5pnqrg',
+  GITHUB: 'https://github.com/Ikhlasdev17',
+  LINKEDIN: 'https://www.linkedin.com/in/ыклас-аралбаев-68256622b',
+  TELEGRAM: 'https://t.me/ikhlasaralbaev',
+  YOUTUBE: 'https://www.youtube.com/channel/UCk3Ij43kR-hLcH50F5pnqrg',
 }
 
 export const NAV_LINKS = [
-	{
-		label: 'about',
-		href: '#about',
-	},
-	{
-		label: 'experience',
-		href: '#experience',
-	},
-	{
-		label: 'work',
-		href: '#work',
-	},
-	{
-		label: 'contact',
-		href: '#contact',
-	},
+  {
+    label: 'about',
+    href: '#about',
+  },
+  {
+    label: 'experience',
+    href: '#experience',
+  },
+  {
+    label: 'work',
+    href: '#work',
+  },
+  {
+    label: 'contact',
+    href: '#contact',
+  },
 ]
 
 export const SOCIAL_LINKS = [
-	{
-		icon: Linkedin,
-		url: 'https://www.linkedin.com/in/aralbaev',
-	},
-	{
-		icon: Youtube,
-		url: 'https://www.youtube.com/channel/UCk3Ij43kR-hLcH50F5pnqrg',
-	},
-	{
-		icon: BsTelegram,
-		url: 'https://t.me/ikhlasaralbaev',
-	},
+  {
+    icon: Linkedin,
+    url: 'https://www.linkedin.com/in/aralbaev',
+  },
+  {
+    icon: Youtube,
+    url: 'https://www.youtube.com/channel/UCk3Ij43kR-hLcH50F5pnqrg',
+  },
+  {
+    icon: BsTelegram,
+    url: 'https://t.me/ikhlasaralbaev',
+  },
 ]
 
 export const TECHNOLOGIES = [
-	{
-		label: 'Javascript',
-		logo: LogoJavascript,
-		url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-	},
-	{
-		label: 'Typescript',
-		logo: LogoTypescript,
-		url: 'https://www.typescriptlang.org/',
-	},
-	{
-		label: 'React',
-		logo: LogoReact,
-		url: 'https://react.dev/',
-	},
-	{
-		label: 'Next.js',
-		logo: LogoNextjs,
-		url: 'https://nextjs.org/',
-	},
-	{
-		label: 'Node.js',
-		logo: LogoNodejs,
-		url: 'https://nodejs.org/en',
-	},
-	{
-		label: 'Express.js',
-		logo: LogoExpress,
-		darkModeLogo: LogoExpressLight,
-		url: 'https://expressjs.com/',
-	},
-	{
-		label: 'Nest.js',
-		logo: LogoNest,
-		url: 'https://nestjs.com/',
-	},
-	{
-		label: 'Socket.io',
-		logo: LogoSocket,
-		darkModeLogo: LogoSocketLight,
-		url: 'https://socket.io/',
-	},
-	{
-		label: 'PostgreSQL',
-		logo: LogoPostgreSQL,
-		url: 'https://www.postgresql.org/',
-	},
-	{
-		label: 'MongoDB',
-		logo: LogoMongoDB,
-		url: 'https://www.mongodb.com/',
-	},
-	{
-		label: 'Sass/Scss',
-		logo: LogoSass,
-		url: 'https://sass-lang.com/',
-	},
-	{
-		label: 'Tailwindcss',
-		logo: LogoTailwindcss,
-		url: 'https://tailwindcss.com/',
-	},
-	{
-		label: 'Figma',
-		logo: LogoFigma,
-		url: 'https://www.figma.com/',
-	},
-	{
-		label: 'Cypress',
-		logo: LogoCypress,
-		darkModeLogo: LogoCypressLight,
-		url: 'https://www.cypress.io/',
-	},
-	{
-		label: 'Storybook',
-		logo: LogoStorybook,
-		url: 'https://storybook.js.org/',
-	},
-	{
-		label: 'Git',
-		logo: LogoGit,
-		url: 'https://git-scm.com/',
-	},
+  {
+    label: 'Javascript',
+    logo: LogoJavascript,
+    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+  },
+  {
+    label: 'Typescript',
+    logo: LogoTypescript,
+    url: 'https://www.typescriptlang.org/',
+  },
+  {
+    label: 'React',
+    logo: LogoReact,
+    url: 'https://react.dev/',
+  },
+  {
+    label: 'Next.js',
+    logo: LogoNextjs,
+    url: 'https://nextjs.org/',
+  },
+  {
+    label: 'Node.js',
+    logo: LogoNodejs,
+    url: 'https://nodejs.org/en',
+  },
+  {
+    label: 'Express.js',
+    logo: LogoExpress,
+    darkModeLogo: LogoExpressLight,
+    url: 'https://expressjs.com/',
+  },
+  {
+    label: 'Nest.js',
+    logo: LogoNest,
+    url: 'https://nestjs.com/',
+  },
+  {
+    label: 'Socket.io',
+    logo: LogoSocket,
+    darkModeLogo: LogoSocketLight,
+    url: 'https://socket.io/',
+  },
+  {
+    label: 'PostgreSQL',
+    logo: LogoPostgreSQL,
+    url: 'https://www.postgresql.org/',
+  },
+  {
+    label: 'MongoDB',
+    logo: LogoMongoDB,
+    url: 'https://www.mongodb.com/',
+  },
+  {
+    label: 'Sass/Scss',
+    logo: LogoSass,
+    url: 'https://sass-lang.com/',
+  },
+  {
+    label: 'Tailwindcss',
+    logo: LogoTailwindcss,
+    url: 'https://tailwindcss.com/',
+  },
+  {
+    label: 'Figma',
+    logo: LogoFigma,
+    url: 'https://www.figma.com/',
+  },
+  {
+    label: 'Cypress',
+    logo: LogoCypress,
+    darkModeLogo: LogoCypressLight,
+    url: 'https://www.cypress.io/',
+  },
+  {
+    label: 'Storybook',
+    logo: LogoStorybook,
+    url: 'https://storybook.js.org/',
+  },
+  {
+    label: 'Git',
+    logo: LogoGit,
+    url: 'https://git-scm.com/',
+  },
 ]
 
 export const EXPERIENCES: ExperienceDetails[] = [
-	{
-		logo: AsiaAlliance,
-		darkModeLogo: AsiaAlliance,
-		logoAlt: 'Asia Alliance Bank',
-		position: 'Frontend developer',
-		startDate: new Date(2024, 8),
-		currentlyWorkHere: true,
-		company: 'Asia Alliance Bank',
-		summary: {
-			en: [
-				`Category 1 specialist of the Department of Information Technology Development and Implementation.`,
-				`Developed an internal "All-in-One" portal for the bank, continuously enhancing its features and performance.`,
-				`Refactored and optimized the Next.js codebase from scratch, achieving a 5x improvement in website speed and performance.`,
-				`Simplified complex internal business logic by designing and implementing optimal algorithms, improving system efficiency and maintainability.`,
-			],
-			ru: [
-				`Специалист 1 категории Департамента разработки и внедрения информационных технологий.`,
-				`Специалист 1-й категории отдела развития и внедрения информационных технологий.`,
-				`Разработал внутренний портал "All-in-One" для банка, постоянно улучшая его функциональность и производительность.`,
-				`Рефакторил и оптимизировал кодовую базу Next.js с нуля, достигнув 5-кратного улучшения скорости и производительности сайта.`,
-				`Упростил сложную внутреннюю бизнес-логику, разработав и внедрив оптимальные алгоритмы, что повысило эффективность и поддерживаемость системы.`,
-			],
-		},
-	},
-	{
-		logo: MusaitLogo,
-		darkModeLogo: MusaitLogo,
-		logoAlt: 'Musait logo',
-		position: 'Full Stack developer',
-		startDate: new Date(2024, 6),
-		endDate: new Date(2024, 9),
-		company: 'OOO "MUSAIT Technologies"',
-		summary: {
-			en: [
-				`Developed ERP systems to streamline business processes for large companies such as Thewolf and Aberno.
+  {
+    logo: AsiaAlliance,
+    darkModeLogo: AsiaAlliance,
+    logoAlt: 'Asia Alliance Bank',
+    position: 'Frontend developer',
+    startDate: new Date(2024, 8),
+    currentlyWorkHere: true,
+    company: 'Asia Alliance Bank',
+    summary: {
+      en: [
+        `Category 1 specialist of the Department of Information Technology Development and Implementation.`,
+        `As a frontend developer, responsible for creating and maintaining user interfaces for internal and external web applications.`,
+        `Actively participates in the development and implementation of innovative solutions to streamline business processes, improve customer experience, and increase the efficiency of the bank’s digital services.`,
+      ],
+      ru: [
+        `Специалист 1 категории Департамента разработки и внедрения информационных технологий.`,
+        `В качестве фронтенд-разработчика отвечает за создание и поддержку пользовательских интерфейсов для внутренних и внешних веб-приложений.`,
+        `Активно участвует в разработке и внедрении инновационных решений для оптимизации бизнес-процессов, улучшения клиентского опыта и повышения эффективности цифровых сервисов банка.`,
+      ],
+    },
+  },
+  {
+    logo: MusaitLogo,
+    darkModeLogo: MusaitLogo,
+    logoAlt: 'Musait logo',
+    position: 'Full Stack developer',
+    startDate: new Date(2024, 6),
+    endDate: new Date(2024, 9),
+    company: 'OOO "MUSAIT Technologies"',
+    summary: {
+      en: [
+        `Developed enterprise resource planning (ERP) systems to streamline business processes for large companies like Thewolf and Aberno.
 				`,
-				`Built CRM systems to enhance client interactions and automate operations for companies like Megastroy and Rozmetov.`,
-				` Developed human resource management (HRM) systems to improve employee management for various enterprises including Medicalka.`,
-				`Technologies: React, Next.js, Tailwind CSS, Storybook, Nest.js, Laravel, PostgreSQL.`,
-				`Deployment: CI/CD, Docker`,
-			],
-			ru: [
-				`Разработал системы планирования ресурсов предприятия (ERP) для оптимизации бизнес-процессов для таких крупных компаний, как Thewolf и Aberno.
+        `Created customer relationship management (CRM) systems to enhance client interactions and automate business operations for companies such as Megastroy and Rozmetov.`,
+        ` Developed human resource management (HRM) systems to improve employee management for various enterprises including Medicalka.`,
+        `Technologies: React, Next.js, Tailwind CSS, Storybook, Nest.js, Laravel, PostgreSQL.`,
+        `Deployment: CI/CD, Docker`,
+      ],
+      ru: [
+        `Разработал системы планирования ресурсов предприятия (ERP) для оптимизации бизнес-процессов для таких крупных компаний, как Thewolf и Aberno.
 `,
-				`Разработал системы управления взаимоотношениями с клиентами (CRM) для улучшения взаимодействия с клиентами и автоматизации бизнес-операций для таких компаний, как Megastroy и Rozmetov.`,
-				` Разработал системы управления человеческими ресурсами (HRM) для улучшения управления сотрудниками для различных предприятий, включая Medicalka.`,
-				`Технологии: React, Next.js, Tailwind CSS, Storybook, Nest.js, Laravel, PostgreSQL.`,
-				`Развертывание: CI/CD, Docker`,
-			],
-		},
-	},
-	{
-		logo: LogoEncode,
-		darkModeLogo: LogoEncodeDark,
-		logoAlt: 'Encode logo',
-		position: 'Frontend developer',
-		startDate: new Date(2024, 0),
-		currentlyWorkHere: false,
-		endDate: new Date(2024, 6),
-		company: 'OOO "ENCODE"',
-		summary: {
-			en: [
-				`Developed ERP systems to streamline and integrate business processes for large companies such as Siymo and Muvvo Auto.
+        `Разработал системы управления взаимоотношениями с клиентами (CRM) для улучшения взаимодействия с клиентами и автоматизации бизнес-операций для таких компаний, как Megastroy и Rozmetov.`,
+        ` Разработал системы управления человеческими ресурсами (HRM) для улучшения управления сотрудниками для различных предприятий, включая Medicalka.`,
+        `Технологии: React, Next.js, Tailwind CSS, Storybook, Nest.js, Laravel, PostgreSQL.`,
+        `Развертывание: CI/CD, Docker`,
+      ],
+    },
+  },
+  {
+    logo: LogoEncode,
+    darkModeLogo: LogoEncodeDark,
+    logoAlt: 'Encode logo',
+    position: 'Full Stack developer',
+    startDate: new Date(2024, 0),
+    currentlyWorkHere: false,
+    endDate: new Date(2024, 6),
+    company: 'OOO "ENCODE"',
+    summary: {
+      en: [
+        `A company that deals with business automation.
+				Developed ERP and CRM.
 				`,
-				`Technologies that I used in the company: React, Next, Material UI, Styled Components, Tailwind, Jest, Storybook, Websocket. Telegraf, Express`,
-				`Integration with IP Telephony (online pbx), Meta, Telegram.`,
-				`CI/CD (GH-actions) | Docker`,
-			],
-			ru: [
-				`Разработал ERP-системы для оптимизации и интеграции бизнес-процессов крупных компаний, таких как Siymo и Muvvo Auto.`,
-				`Технологии, которые я использовал в компании: React, Next, Material UI,
+        `Technologies that I used in the company: React, Next, Material UI, Styled Components, Tailwind, Jest, Storybook, Websocket. Telegraf, Express`,
+        `Integration with IP Telephony (online pbx), Meta, Telegram.`,
+        `CI/CD (GH-actions) | Docker`,
+      ],
+      ru: [
+        `Компания которая занимается автоматизаций бизнеса.
+				Разработал ERP и CRM.
+				`,
+        `Технологии, которые я использовал в компании: React, Next, Material UI,
 				Styled Components, Tailwind, Jest, Storybook, Websocket, Telegraf, Express`,
-				`Интеграции с ИП Телефонии (online pbx), Meta, Telegram.`,
-				`CI/CD (GH-actions) | Docker`,
-			],
-		},
-	},
+        `Интеграции с ИП Телефонии (online pbx), Meta, Telegram.`,
+        `CI/CD (GH-actions) | Docker`,
+      ],
+    },
+  },
 
-	{
-		logo: LogoDotnpixelLight,
-		logoAlt: 'TEXNOPOS logo',
-		position: 'Frontend mentor',
-		startDate: new Date(2023, 8),
-		endDate: new Date(2024, 0),
-		company: 'OOO "TexnoPOS IT Academy"',
-		summary: {
-			en: [
-				'Engaged as a Frontend Mentor, providing guidance and expertise in web development to support the professional growth of individuals in the field.',
-				`Instructed and mentored a diverse cohort of over +50 students, fostering their academic growth and development.`,
-				`Sharing web programming knowledge.
+  {
+    logo: LogoDotnpixelLight,
+    logoAlt: 'TEXNOPOS logo',
+    position: 'Frontend mentor',
+    startDate: new Date(2023, 8),
+    endDate: new Date(2024, 0),
+    company: 'OOO "TexnoPOS IT Academy"',
+    summary: {
+      en: [
+        'Engaged as a Frontend Mentor, providing guidance and expertise in web development to support the professional growth of individuals in the field.',
+        `Instructed and mentored a diverse cohort of over +50 students, fostering their academic growth and development.`,
+        `Sharing web programming knowledge.
 			`,
-			],
-			ru: [
-				'Работал наставником по интерфейсу, предоставляя рекомендации и экспертные знания в области веб-разработки для поддержки профессионального роста людей в этой области.',
-				`Инструктировал и наставлял разнообразную группу из более чем 50 студентов, способствуя их академическому росту и развитию.`,
-				`Делимся знаниями в области веб-программирования.
+      ],
+      ru: [
+        'Работал наставником по интерфейсу, предоставляя рекомендации и экспертные знания в области веб-разработки для поддержки профессионального роста людей в этой области.',
+        `Инструктировал и наставлял разнообразную группу из более чем 50 студентов, способствуя их академическому росту и развитию.`,
+        `Делимся знаниями в области веб-программирования.
 			`,
-			],
-		},
-	},
-	{
-		logo: LogoDotnpixelLight,
-		logoAlt: 'TEXNOPOS logo',
-		position: 'Frontend developer',
-		startDate: new Date(2022, 1),
-		endDate: new Date(2023, 10),
-		company: 'OOO "TexnoPOS SOFT"',
-		summary: {
-			en: [
-				`Developed CRM and ERP systems to automate processes for local small and medium-sized businesses.`,
-				`Optimized system performance and user experience through advanced frontend development techniques.`,
-				`Technologies: React, Next.js, TypeScript.`,
-			],
-			ru: [
-				`Разработаны CRM и ERP системы для автоматизации процессов для местных малых и средних предприятий.`,
-				`Оптимизирована производительность системы и улучшен пользовательский опыт с помощью передовых методов фронтенд-разработки.`,
-				`Технологии: React, Next.js, TypeScript.`,
-			],
-		},
-	},
+      ],
+    },
+  },
+  {
+    logo: LogoDotnpixelLight,
+    logoAlt: 'TEXNOPOS logo',
+    position: 'Frontend developer',
+    startDate: new Date(2022, 5),
+    endDate: new Date(2023, 10),
+    company: 'OOO "TexnoPOS SOFT"',
+    summary: {
+      en: [
+        'CRM systems were developed and automatic SMS sending was carried out. Primary technologies: JavaScript, React, Php, Laravel, Kotlin.',
+        `Patient diagnostic automation systems have been developed for private clinics. Primary technologies: JavaScript, Php, Laravel.`,
+        `A business process automation program has been developed for some roles. Primary technologies: JavaScript, React, Php, Laravel, Kotlin.
+			`,
+      ],
+      ru: [
+        'Разработаны CRM-системы и осуществлена ​​автоматическая отправка СМС. Основные технологии: JavaScript, React, Php, Laravel, Kotlin.',
+        `Для частных клиник разработаны системы автоматизации диагностики пациентов. Основные технологии: JavaScript, Php, Laravel.`,
+        `Для некоторых должностей разработана программа автоматизации бизнес-процессов. Основные технологии: JavaScript, React, Php, Laravel, Kotlin.
+			`,
+      ],
+    },
+  },
 ]
 
 export const PROJECTS: any[] = [
-	{
-		name: 'ERP system',
-		description: {
-			en: 'A fully automated ERP system for car salons and car services.',
-			ru: 'Полностью автоматизированная ERP-система для автосалонов и автосервисов.',
-		},
-		url: '#',
-		previewImage: Muvvo,
-		images: [Muvvo, Muvvo2, Muvvo3, Muvvo4, Muvvo5],
-		role: 'Frontend developer',
-		technologies: [
-			'React',
-			'Typescript',
-			'Material UI',
-			'Socket.io',
-			'Redux Toolkit',
-			'Styled Components',
-			'Storybook',
-			'Python',
-			'Django',
-			'Meta integration',
-			'IP Telephony',
-		],
-	},
-	{
-		name: 'CRM system - Siymo',
-		description: {
-			en: `CRM system for Siymo.uz marketing company. It has a beautiful and convenient UI/UX.`,
-			ru: `CRM система для маркетинговой компании Siymo.uz. Имеет красивый и удобный UI/UX.`,
-		},
-		url: '#',
-		role: 'Frontend developer',
-		previewImage: Siymo1,
-		images: [Siymo1, Siymo2, Siymo3, Siymo4],
-		technologies: [
-			'React',
-			'Typescript',
-			'Styled Components',
-			'Material UI',
-			'Redux Toolkit',
-			'React Query',
-			'Socket.io',
-			'React Charts',
-			'Python',
-			'Django',
-		],
-	},
-	{
-		name: 'CRM system - Vivian.uz',
-		description: {
-			en: 'A CRM system that fully automates the sales and production sides for the Vivian.uz production company.',
-			ru: `CRM-система, полностью автоматизирующая продажи и производство производственной компании Vivian.uz.`,
-		},
-		url: '#',
-		role: 'Frontend developer',
-		previewImage: Vivian1,
-		images: [Vivian1, Vivian2],
-		technologies: [
-			'React',
-			'Typescript',
-			'Tailwindcss',
-			'Ant Design',
-			'RTK Query',
-			'PHP',
-			'Laravel',
-		],
-	},
-	{
-		name: 'Online Learning PLatform',
-		description: {
-			en: 'Online learning platform for online and hybrid learning. Monitoring of courses, sales department, management of students and employees.',
-			ru: `Платформа онлайн-обучения для онлайн- и гибридного обучения. Мониторинг курса, отдел продаж, управление студентами и персоналом.`,
-		},
-		url: '#',
-		role: 'Full-stack developer',
-		previewImage: Natiyje1,
-		images: [
-			Natiyje1,
-			Natiyje2,
-			Natiyje3,
-			Natiyje4,
-			Natiyje5,
-			Natiyje6,
-			Natiyje7,
-		],
-		technologies: [
-			'React',
-			'Next.js',
-			'Typescript',
-			'Chakra UI',
-			'Jest',
-			'Storybook',
-			'Nest.js',
-			'MongoDB',
-			'SMS Integration (eskiz.uz)',
-			'Payment Integration (click.uz)',
-		],
-		github: 'https://github.com/Ikhlasdev17/natiyje-client.git',
-	},
-	{
-		name: 'LMS System',
-		description: {
-			en: 'LMS system for full automation of training centers. Including customers, staff, courses, center branches and other management.',
-			ru: `Система LMS для полной автоматизации учебных центров. Включая клиентов, сотрудников, курсы, филиалы центра и другое руководство.`,
-		},
-		url: '#',
-		role: 'Frontend developer',
-		previewImage: Lms1,
-		images: [Lms1, Lms2, Lms3, Lms4],
-		technologies: [
-			'React',
-			'Typescript',
-			'Ant Design',
-			'Tailwind',
-			'Storybook',
-			'PHP',
-			'Laravel',
-		],
-	},
-	{
-		name: 'RoomS - Chat application',
-		description: {
-			en: 'Real time chat application, rooms and users. Multiple database projects, including MongoDB and Postgresql.',
-			ru: `Приложение чата в реальном времени, комнаты и пользователи. Несколько проектов баз данных, включая MongoDB и Postgresql.`,
-		},
-		url: '#',
-		urls: {
-			frontend: 'https://github.com/ikhlasaralbaev/chat-app-client.git',
-			backend: 'https://github.com/ikhlasaralbaev/chat-app-2.git',
-		},
-		role: 'Full-stack developer',
-		previewImage: Chat1,
-		images: [Chat1, Chat2, Chat3, Chat4, Chat5, Chat6],
-		technologies: [
-			'React',
-			'Typescript',
-			'Chakra UI',
-			'PHP',
-			'Laravel',
-			'Pusher',
-			'MongoDB',
-			'Postgres',
-			'Docker',
-		],
-	},
+  {
+    name: 'ERP system',
+    description: {
+      en: 'A fully automated ERP system for car salons and car services.',
+      ru: 'Полностью автоматизированная ERP-система для автосалонов и автосервисов.',
+    },
+    url: '#',
+    previewImage: Muvvo,
+    images: [Muvvo, Muvvo2, Muvvo3, Muvvo4, Muvvo5],
+    role: 'Frontend developer',
+    technologies: [
+      'React',
+      'Typescript',
+      'Material UI',
+      'Socket.io',
+      'Redux Toolkit',
+      'Styled Components',
+      'Storybook',
+      'Python',
+      'Django',
+      'Meta integration',
+      'IP Telephony',
+    ],
+  },
+  {
+    name: 'CRM system - Siymo',
+    description: {
+      en: `CRM system for Siymo.uz marketing company. It has a beautiful and convenient UI/UX.`,
+      ru: `CRM система для маркетинговой компании Siymo.uz. Имеет красивый и удобный UI/UX.`,
+    },
+    url: '#',
+    role: 'Frontend developer',
+    previewImage: Siymo1,
+    images: [Siymo1, Siymo2, Siymo3, Siymo4],
+    technologies: [
+      'React',
+      'Typescript',
+      'Styled Components',
+      'Material UI',
+      'Redux Toolkit',
+      'React Query',
+      'Socket.io',
+      'React Charts',
+      'Python',
+      'Django',
+    ],
+  },
+  {
+    name: 'CRM system - Vivian.uz',
+    description: {
+      en: 'A CRM system that fully automates the sales and production sides for the Vivian.uz production company.',
+      ru: `CRM-система, полностью автоматизирующая продажи и производство производственной компании Vivian.uz.`,
+    },
+    url: '#',
+    role: 'Frontend developer',
+    previewImage: Vivian1,
+    images: [Vivian1, Vivian2],
+    technologies: [
+      'React',
+      'Typescript',
+      'Tailwindcss',
+      'Ant Design',
+      'RTK Query',
+      'PHP',
+      'Laravel',
+    ],
+  },
+  {
+    name: 'Online Learning PLatform',
+    description: {
+      en: 'Online learning platform for online and hybrid learning. Monitoring of courses, sales department, management of students and employees.',
+      ru: `Платформа онлайн-обучения для онлайн- и гибридного обучения. Мониторинг курса, отдел продаж, управление студентами и персоналом.`,
+    },
+    url: '#',
+    role: 'Full-stack developer',
+    previewImage: Natiyje1,
+    images: [
+      Natiyje1,
+      Natiyje2,
+      Natiyje3,
+      Natiyje4,
+      Natiyje5,
+      Natiyje6,
+      Natiyje7,
+    ],
+    technologies: [
+      'React',
+      'Next.js',
+      'Typescript',
+      'Chakra UI',
+      'Jest',
+      'Storybook',
+      'Nest.js',
+      'MongoDB',
+      'SMS Integration (eskiz.uz)',
+      'Payment Integration (click.uz)',
+    ],
+    github: 'https://github.com/Ikhlasdev17/natiyje-client.git',
+  },
+  {
+    name: 'LMS System',
+    description: {
+      en: 'LMS system for full automation of training centers. Including customers, staff, courses, center branches and other management.',
+      ru: `Система LMS для полной автоматизации учебных центров. Включая клиентов, сотрудников, курсы, филиалы центра и другое руководство.`,
+    },
+    url: '#',
+    role: 'Frontend developer',
+    previewImage: Lms1,
+    images: [Lms1, Lms2, Lms3, Lms4],
+    technologies: [
+      'React',
+      'Typescript',
+      'Ant Design',
+      'Tailwind',
+      'Storybook',
+      'PHP',
+      'Laravel',
+    ],
+  },
+  {
+    name: 'RoomS - Chat application',
+    description: {
+      en: 'Real time chat application, rooms and users. Multiple database projects, including MongoDB and Postgresql.',
+      ru: `Приложение чата в реальном времени, комнаты и пользователи. Несколько проектов баз данных, включая MongoDB и Postgresql.`,
+    },
+    url: '#',
+    urls: {
+      frontend: 'https://github.com/ikhlasaralbaev/chat-app-client.git',
+      backend: 'https://github.com/ikhlasaralbaev/chat-app-2.git',
+    },
+    role: 'Full-stack developer',
+    previewImage: Chat1,
+    images: [Chat1, Chat2, Chat3, Chat4, Chat5, Chat6],
+    technologies: [
+      'React',
+      'Typescript',
+      'Chakra UI',
+      'PHP',
+      'Laravel',
+      'Pusher',
+      'MongoDB',
+      'Postgres',
+      'Docker',
+    ],
+  },
 ]
 
 export const TESTIMONIALS = [
-	{
-		personName: 'Krisztian Gyuris',
-		personAvatar: AvatarKrisztian,
-		title: 'Founder - inboxgenie.io',
-		testimonial:
-			'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
-	},
-	{
-		personName: 'Eugen Esanu',
-		personAvatar: AvatarEugen,
-		title: 'Founder - shosho.design',
-		testimonial:
-			'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
-	},
-	{
-		personName: 'Joe Matkin',
-		personAvatar: AvatarDummy,
-		title: 'Freelancer',
-		testimonial:
-			'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
-	},
+  {
+    personName: 'Krisztian Gyuris',
+    personAvatar: AvatarKrisztian,
+    title: 'Founder - inboxgenie.io',
+    testimonial:
+      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
+  },
+  {
+    personName: 'Eugen Esanu',
+    personAvatar: AvatarEugen,
+    title: 'Founder - shosho.design',
+    testimonial:
+      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
+  },
+  {
+    personName: 'Joe Matkin',
+    personAvatar: AvatarDummy,
+    title: 'Freelancer',
+    testimonial:
+      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+  },
 ]
 
 const removedExp = {
-	logo: '',
-	darkModeLogo: '',
-	logoAlt: 'Natiyje logo',
-	position: 'Full Stack developer',
-	startDate: new Date(2023, 7),
-	endDate: new Date(2024, 0),
-	company: 'OOO "Nátiyje"',
-	summary: {
-		en: [
-			'Startup project - for online and hybrid education.',
-			'Developed the backend part on: NestJS, database - MongoDB',
-			'And the frontend part developed on: NextJS, Storybook, ChakraUI, Jest.',
-			'Integration with various services such as: Eskiz.uz, Click.uz, Payme.uz, and video hosting.',
-		],
-		ru: [
-			'Стартап проект - для онлайн и гибридный образовании.',
-			'Разработал бэкенд часть на NestJS, БД - MongoDB',
-			'And the frontend part developed on: NextJS, Storybook, ChakraUI, Jest.',
-			'Интеграция с различными сервисами такие как: Eskiz.uz, Click.uz, Payme.uz, и видеохостинг Spotlightr.com',
-		],
-	},
+  logo: '',
+  darkModeLogo: '',
+  logoAlt: 'Natiyje logo',
+  position: 'Full Stack developer',
+  startDate: new Date(2023, 7),
+  endDate: new Date(2024, 0),
+  company: 'OOO "Nátiyje"',
+  summary: {
+    en: [
+      'Startup project - for online and hybrid education.',
+      'Developed the backend part on: NestJS, database - MongoDB',
+      'And the frontend part developed on: NextJS, Storybook, ChakraUI, Jest.',
+      'Integration with various services such as: Eskiz.uz, Click.uz, Payme.uz, and video hosting.',
+    ],
+    ru: [
+      'Стартап проект - для онлайн и гибридный образовании.',
+      'Разработал бэкенд часть на NestJS, БД - MongoDB',
+      'And the frontend part developed on: NextJS, Storybook, ChakraUI, Jest.',
+      'Интеграция с различными сервисами такие как: Eskiz.uz, Click.uz, Payme.uz, и видеохостинг Spotlightr.com',
+    ],
+  },
 }
