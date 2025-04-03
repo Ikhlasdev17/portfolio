@@ -1,4 +1,4 @@
-import { Linkedin, Youtube } from 'lucide-react'
+import { Folders, Linkedin, Youtube } from 'lucide-react'
 import { BsTelegram } from 'react-icons/bs'
 
 import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg'
@@ -207,17 +207,20 @@ export const EXPERIENCES: ExperienceDetails[] = [
 		company: 'Asia Alliance Bank',
 		summary: {
 			en: [
-				`Category 1 specialist of the Department of Information Technology Development and Implementation.`,
-				`Developed an internal "All-in-One" portal for the bank, continuously enhancing its features and performance.`,
-				`Refactored and optimized the Next.js codebase from scratch, achieving a 5x improvement in website speed and performance.`,
-				`Simplified complex internal business logic by designing and implementing optimal algorithms, improving system efficiency and maintainability.`,
+				`Built a unified corporate portal from scratch, integrating My Gov, My Org, iABS, and ELMA, optimizing operations for 1,000+ employees.`,
+				`Automated the entire credit process with a custom-built Credit Conveyor module.`,
+				`Developed the Folders module for seamless file sharing, document storage, and credit process integration.`,
+				`Refactored the Next.js codebase – eliminated middleware issues, reduced prop drilling, and enforced DRY & SRP principles.`,
+				`Implemented Jest and introduced test-driven development for new components.`,
+				`Designed robust forms to handle large-scale and complex data inputs.`
 			],
 			ru: [
-				`Специалист 1 категории Департамента разработки и внедрения информационных технологий.`,
-				`Специалист 1-й категории отдела развития и внедрения информационных технологий.`,
-				`Разработал внутренний портал "All-in-One" для банка, постоянно улучшая его функциональность и производительность.`,
-				`Рефакторил и оптимизировал кодовую базу Next.js с нуля, достигнув 5-кратного улучшения скорости и производительности сайта.`,
-				`Упростил сложную внутреннюю бизнес-логику, разработав и внедрив оптимальные алгоритмы, что повысило эффективность и поддерживаемость системы.`,
+				`Создал единый корпоративный портал с нуля, интегрировав My Gov, My Org, iABS и ELMA, оптимизировав операции для более 1,000 сотрудников.`,
+				`Автоматизировал весь процесс кредитования с помощью разработанного модуля Credit Conveyor.`,
+				`Разработал модуль Folders для удобного обмена файлами, хранения документов и интеграции в процесс кредитования.`,
+				`Рефакторил кодовую базу Next.js — устранил проблемы с промежуточным ПО, уменьшил проп-дриллинг и внедрил принципы DRY и SRP.`,
+				`Реализовал Jest и внедрил разработку через тестирование для новых компонентов.`,
+				`Разработал надежные формы для обработки масштабных и сложных данных.`,
 			],
 		},
 	},
