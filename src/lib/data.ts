@@ -1,4 +1,4 @@
-import { Linkedin, Youtube } from 'lucide-react'
+import { Folders, Linkedin, Youtube } from 'lucide-react'
 import { BsTelegram } from 'react-icons/bs'
 
 import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg'
@@ -197,38 +197,44 @@ export const TECHNOLOGIES = [
 ]
 
 export const EXPERIENCES: ExperienceDetails[] = [
-  {
-    logo: AsiaAlliance,
-    darkModeLogo: AsiaAlliance,
-    logoAlt: 'Asia Alliance Bank',
-    position: 'Frontend developer',
-    startDate: new Date(2024, 8),
-    currentlyWorkHere: true,
-    company: 'Asia Alliance Bank',
-    summary: {
-      en: [
-        `Category 1 specialist of the Department of Information Technology Development and Implementation.`,
-        `As a frontend developer, responsible for creating and maintaining user interfaces for internal and external web applications.`,
-        `Actively participates in the development and implementation of innovative solutions to streamline business processes, improve customer experience, and increase the efficiency of the bank’s digital services.`,
-      ],
-      ru: [
-        `Специалист 1 категории Департамента разработки и внедрения информационных технологий.`,
-        `В качестве фронтенд-разработчика отвечает за создание и поддержку пользовательских интерфейсов для внутренних и внешних веб-приложений.`,
-        `Активно участвует в разработке и внедрении инновационных решений для оптимизации бизнес-процессов, улучшения клиентского опыта и повышения эффективности цифровых сервисов банка.`,
-      ],
-    },
-  },
-  {
-    logo: MusaitLogo,
-    darkModeLogo: MusaitLogo,
-    logoAlt: 'Musait logo',
-    position: 'Full Stack developer',
-    startDate: new Date(2024, 6),
-    endDate: new Date(2024, 9),
-    company: 'OOO "MUSAIT Technologies"',
-    summary: {
-      en: [
-        `Developed enterprise resource planning (ERP) systems to streamline business processes for large companies like Thewolf and Aberno.
+	{
+		logo: AsiaAlliance,
+		darkModeLogo: AsiaAlliance,
+		logoAlt: 'Asia Alliance Bank',
+		position: 'Frontend developer',
+		startDate: new Date(2024, 8),
+		currentlyWorkHere: true,
+		company: 'Asia Alliance Bank',
+		summary: {
+			en: [
+				`Built a unified corporate portal from scratch, integrating My Gov, My Org, iABS, and ELMA, optimizing operations for 1,000+ employees.`,
+				`Automated the entire credit process with a custom-built Credit Conveyor module.`,
+				`Developed the Folders module for seamless file sharing, document storage, and credit process integration.`,
+				`Refactored the Next.js codebase – eliminated middleware issues, reduced prop drilling, and enforced DRY & SRP principles.`,
+				`Implemented Jest and introduced test-driven development for new components.`,
+				`Designed robust forms to handle large-scale and complex data inputs.`
+			],
+			ru: [
+				`Создал единый корпоративный портал с нуля, интегрировав My Gov, My Org, iABS и ELMA, оптимизировав операции для более 1,000 сотрудников.`,
+				`Автоматизировал весь процесс кредитования с помощью разработанного модуля Credit Conveyor.`,
+				`Разработал модуль Folders для удобного обмена файлами, хранения документов и интеграции в процесс кредитования.`,
+				`Рефакторил кодовую базу Next.js — устранил проблемы с промежуточным ПО, уменьшил проп-дриллинг и внедрил принципы DRY и SRP.`,
+				`Реализовал Jest и внедрил разработку через тестирование для новых компонентов.`,
+				`Разработал надежные формы для обработки масштабных и сложных данных.`,
+			],
+		},
+	},
+	{
+		logo: MusaitLogo,
+		darkModeLogo: MusaitLogo,
+		logoAlt: 'Musait logo',
+		position: 'Full Stack developer',
+		startDate: new Date(2024, 6),
+		endDate: new Date(2024, 9),
+		company: 'OOO "MUSAIT Technologies"',
+		summary: {
+			en: [
+				`Developed ERP systems to streamline business processes for large companies such as Thewolf and Aberno.
 				`,
         `Created customer relationship management (CRM) systems to enhance client interactions and automate business operations for companies such as Megastroy and Rozmetov.`,
         ` Developed human resource management (HRM) systems to improve employee management for various enterprises including Medicalka.`,
